@@ -31,3 +31,11 @@
 .btn_group button:hover {
       @apply bg-black text-white transition-all
 }
+
+.work_cards .card {
+     @apply hover:bg-[#C5FF41] hover:text-black transition-all
+}
+
+.work_cards .card:hover .button{
+     @apply bg-black text-white transition-all
+}

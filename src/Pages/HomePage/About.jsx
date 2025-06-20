@@ -7,7 +7,7 @@ import { FaArrowDown } from 'react-icons/fa';
 
 const About = () => {
     return (
-        <div className=' w-[88%] mx-auto  pt-[208px]  ' style={{backgroundImage : `url(${aboutImg})`,backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat : 'no-repeat'}}>
+        <div className=' px-[5%] mx-auto  pt-[208px]  ' style={{backgroundImage : `url(${aboutImg})`,backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat : 'no-repeat'}}>
                 
                   <div className='flex justify-end items-center'>
                                                  <div className= {` w-[38px] h-[38px] flex justify-center items-center  text-black border border-black rounded-full`}>

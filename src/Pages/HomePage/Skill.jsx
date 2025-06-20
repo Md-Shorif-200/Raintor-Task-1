@@ -7,7 +7,7 @@ import Secondary_btn from "../../Components/Secondary_btn";
 
 const Skill = () => {
   return (
-    <div className="w-full bg-black dark:bg-[#0a0a0a]  px-[50px] py-[90px] rounded-3xl z-0">
+    <div className="w-full bg-black dark:bg-[#0a0a0a]  px-[5%] py-[90px] rounded-3xl z-0">
       {/* call reuable button */}
       <Secondary_btn></Secondary_btn>
       {/* skill heading */}
