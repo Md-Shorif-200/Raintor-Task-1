@@ -9,7 +9,7 @@ const Skill = () => {
   return (
     <div className="w-full bg-black dark:bg-[#0a0a0a]  px-[5%] py-[90px] rounded-3xl z-0">
       {/* call reuable button */}
-      <Secondary_btn></Secondary_btn>
+      <Secondary_btn text={'why choose me'}></Secondary_btn>
       {/* skill heading */}
       <div className="skill_heading my-10 md:flex justify-between ">
         <div className="skill_title">

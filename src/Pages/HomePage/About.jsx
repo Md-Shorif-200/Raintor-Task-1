@@ -7,14 +7,14 @@ import { FaArrowDown } from 'react-icons/fa';
 
 const About = () => {
     return (
-        <div className=' px-[5%] mx-auto  pt-14 lg:pt-[208px]  ' style={{backgroundImage : `url(${aboutImg})`,backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat : 'no-repeat'}}>
+        <div className=' px-[5%] mx-auto  pt-14 lg:pt-[208px] dark:bg-white/10 ' style={{backgroundImage : `url(${aboutImg})`,backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat : 'no-repeat'}}>
                 
                   <div className='flex lg:justify-end items-center'>
-                                                 <div className= {` w-[38px] h-[38px] flex justify-center items-center  text-black border border-black rounded-full`}>
+                                                 <div className= {` w-[38px] h-[38px] flex justify-center items-center dark:text-white text-black border border-black dark:border-white rounded-full`}>
                                                                     <FaArrowDown></FaArrowDown>
                                                             </div>   
                                                             <div>
-                                                                 <p className='w-[200px] h-[44px] text-[16px] text-center text-black border border-black rounded-2xl capitalize flex items-center justify-center'>Why choose me</p>
+                                                                 <p className='w-[200px] h-[44px] text-[16px] text-center text-black border border-black  dark:text-white  dark:border-white  rounded-2xl capitalize flex items-center justify-center'>About</p>
                                                                   </div>   
                     </div>
 
@@ -29,14 +29,14 @@ const About = () => {
 
                     <div className="about-btn">
                           <div className="btn_group lg:ml-36">
-                                  <button className='lg:rotate-[11.73deg] my-2 lg:my-0 ' >awwards</button>
-                                  <button className=' ' >facebook</button>
-                                  <button className='lg:rotate-[16.97deg] my-2 lg:my-0 hidden lg:block '>CSS<span className='font-bold'>Design</span>Awareds </button>
+                                  <button className=' dark:border-white dark:text-white lg:rotate-[11.73deg] my-2 lg:my-0 ' >awwards</button>
+                                  <button className=' dark:border-white dark:text-white  ' >facebook</button>
+                                  <button className=' dark:border-white dark:text-white lg:rotate-[16.97deg] my-2 lg:my-0 hidden lg:block '>CSS<span className='font-bold'>Design</span>Awareds </button>
                           </div>
                           <div className="btn_group mt-3">
-                            <button >CSS V INNER</button>
-                            <button className='font-bold lg:-rotate-[9.34deg] my-2 lg:my-0 ' >/thougtworks</button>
-                            <button className='font-bold' >autodesk</button>
+                            <button className='dark:border-white dark:text-white'>CSS V INNER</button>
+                            <button className=' dark:border-white dark:text-white font-bold lg:-rotate-[9.34deg] my-2 lg:my-0 ' >/thougtworks</button>
+                            <button className=' dark:border-white dark:text-white font-bold' >autodesk</button>
                           </div>
                     </div>
                </div>
