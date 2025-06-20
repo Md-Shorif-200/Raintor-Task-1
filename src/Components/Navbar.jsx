@@ -1,11 +1,12 @@
 import React from 'react';
-import { FaArrowRight, FaSun } from 'react-icons/fa';
+import { FaArrowRight, FaMoon, FaSun } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Primary_btn from './Primary_btn';
+import { BsSunFill } from 'react-icons/bs';
 
-const Navbar = () => {
+const Navbar = ({handleDarkmodemode,mode}) => {
     return (
-        <nav className='nav_align my-[28px] mx-[50px] '>
+        <nav className='nav_align py-[28px] px-[50px] sticky top-0 shadow-xl bg-white dark:bg-black'>
               {/* nav logo */}
                  <div className="nav_logo ">
                       <h1 className='uppercase text-[34px] font-bold'>DEVLOP.ME</h1>
@@ -26,10 +27,15 @@ const Navbar = () => {
 
                     {/* dark mode /light mode */}
 
-                     <div className="toggle_btn">
-                          <button>
-                              <FaSun></FaSun>
-                          </button>
+                     <div className="toggle_btn text-2xl"  onClick={handleDarkmodemode} >
+                        {
+                            mode === 'light' 
+                            ?
+                             <>  <FaMoon></FaMoon> </>
+                             : 
+
+                             <>  <BsSunFill></BsSunFill> </>
+                        }
                      </div>
 
                      <div className="nav_button">

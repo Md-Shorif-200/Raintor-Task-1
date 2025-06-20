@@ -6,7 +6,7 @@ import react_icon from '../../assets/React_icon.png'
 
 const Skill = () => {
     return (
-        <div className='w-full bg-black px-[50px] py-[90px]'>
+        <div className='w-full bg-black dark:bg-[#0a0a0a]  px-[50px] py-[90px]'>
           
                    <div className='flex items-center '>
                      <div className= {`icon w-[38px] h-[38px] flex justify-center items-center  text-white border border-white rounded-full`}>

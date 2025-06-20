@@ -5,8 +5,8 @@ import ReusableIcon from './ReusableIcon';
 const Primary_btn = ({Text,icon}) => {
     return (
      
-             <button className=' w-[182px] h-[58px] flex  items-center gap-x-2 capitalize border border-black py-5 rounded-[29px]'> 
-                             <div className= {`icon w-[38px] h-[38px] flex justify-center items-center  text-black  border border-black rounded-full`}>
+             <button className=' w-[182px] h-[58px] flex  items-center gap-x-2 capitalize border border-black dark:border-white py-5 rounded-[29px]'> 
+                             <div className= {`icon w-[38px] h-[38px] flex justify-center items-center  text-black dark:text-white  border border-black dark:border-white rounded-full`}>
                                       <FaArrowRight></FaArrowRight>
                                 </div>
                                     {Text}
