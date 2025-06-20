@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* common class */
+
+.nav_align{
+    @apply flex justify-between items-center
+}
+
+
+
+/* nav bar */
+
+
+
+/* banner */
+.banner_badge{
+    @apply bg-black text-white rounded-2xl
+}
+
+.line{
+    width: 45px;
+    border: 1px solid black;
+}
