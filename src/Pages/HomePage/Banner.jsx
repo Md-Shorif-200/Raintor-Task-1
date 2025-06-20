@@ -8,7 +8,7 @@ import { IoIosCall } from "react-icons/io";
 const Banner = () => {
   return (
     <div
-      className="w-full min-h-screen pl-[50px] pr-[262px] flex flex-col justify-center  "
+      className="w-full min-h-screen pl-[5%] lg:pr-[262px] flex flex-col justify-center  "
       style={{
         backgroundImage: `url(${bannerImg})`,
         backgroundPosition: "center",
@@ -17,26 +17,26 @@ const Banner = () => {
       }}
     >
       <div className="banner_heading">
-        <h1 className="text-[78px] font-bold capitalize">
-          Trusted <span className="banner_badge">Partner</span> for <br /> Your
+        <h1 className=" text-4xl leading-[50px] sm:text-5xl sm:leading-[70px] md:text-7xl md:leading-[110px]  lg:text-[78px] font-bold capitalize">
+          Trusted <span className="banner_badge">Partner</span> for <br className="hidden md:block" /> Your
           Website <span className="banner_badge">Develop.</span>
         </h1>
       </div>
 
-      <div className="banner_cnt relative mt-12 flex ">
+      <div className="banner_cnt lg:relative mt-12 lg:flex ">
         <div className="social_media ">
-          <p className="absolute -left-6 top-10 text-[18px] transform -rotate-[90deg]">
+          <p className="lg:absolute -left-6 top-10 text-[18px] transform lg:-rotate-[90deg]">
             {" "}
             @williamrey{" "}
           </p>
-          <div className="social_icon  flex flex-col gap-3 ml-10">
+          <div className="social_icon  flex lg:flex-col gap-3 lg:ml-10 my-3 lg:my-0 text-2xl">
             <FaTwitter className="w-[28px]"></FaTwitter>
             <FaInstagram className="w-[28px]"></FaInstagram>
             <FaFacebook className="w-[28px]"></FaFacebook>
-            <TfiLayoutLineSolid className="-rotate-90 w-[28px]"></TfiLayoutLineSolid>
+            <TfiLayoutLineSolid className="lg:-rotate-90 w-[28px]"></TfiLayoutLineSolid>
           </div>
         </div>
-        <div className="banner_description ml-64">
+        <div className="banner_description lg:ml-64">
           <div className="paragrap ">
             <p className="">
               {" "}

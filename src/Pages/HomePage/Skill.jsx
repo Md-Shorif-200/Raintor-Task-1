@@ -11,28 +11,28 @@ const Skill = () => {
       {/* call reuable button */}
       <Secondary_btn></Secondary_btn>
       {/* skill heading */}
-      <div className="skill_heading my-10 flex justify-between ">
+      <div className="skill_heading my-10 md:flex justify-between ">
         <div className="skill_title">
-          <h1 className="text-[58px] font-bold capitalize text-white">
+          <h1 className=" text-4xl sm:text-5xl md:text-6xl lg:text-[58px] font-bold capitalize text-white">
             My Extensive <br /> List of Skills
           </h1>
         </div>
         <div className="skill_desc">
-          <p className="text-[18px] font-normal capitalize text-white">
+          <p className="text-[18px] font-normal capitalize text-white my-10 md:my-0">
             {" "}
             Building the worlds best marketing Your trusted partner for
             strategy, design, and dev.
           </p>
           <hr className=" border mt-5 mb-9 border-white opacity-[.4]" />
           {/* arrow btn */}
-          <div className="skill_arrow_btn flex gap-x-5 justify-end">
+          <div className="skill_arrow_btn flex gap-x-5 md:justify-end">
             {/* left arrow */}
-            <div className="left_btn w-[60px] h-[60px] border border-white rounded-full flex justify-center items-center">
-              <FaArrowLeftLong className="w-9 h-6 text-white"></FaArrowLeftLong>
+            <div className="left_btn w-[60px] h-[60px] border border-white hover:bg-white  transition-all rounded-full flex justify-center items-center">
+              <FaArrowLeftLong className="w-9 h-6 text-white hover:text-black"></FaArrowLeftLong>
             </div>
             {/* right arrow */}
-            <div className="left_btn w-[60px] h-[60px] border border-white rounded-full flex justify-center items-center">
-              <FaArrowRightLong className="w-9 h-6 text-white"></FaArrowRightLong>
+            <div className="left_btn w-[60px] h-[60px] border border-white hover:bg-white  transition-all rounded-full flex justify-center items-center">
+              <FaArrowRightLong className="w-9 h-6 text-white hover:text-black"></FaArrowRightLong>
             </div>
           </div>
         </div>

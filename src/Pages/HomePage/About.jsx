@@ -7,9 +7,9 @@ import { FaArrowDown } from 'react-icons/fa';
 
 const About = () => {
     return (
-        <div className=' px-[5%] mx-auto  pt-[208px]  ' style={{backgroundImage : `url(${aboutImg})`,backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat : 'no-repeat'}}>
+        <div className=' px-[5%] mx-auto  pt-14 lg:pt-[208px]  ' style={{backgroundImage : `url(${aboutImg})`,backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat : 'no-repeat'}}>
                 
-                  <div className='flex justify-end items-center'>
+                  <div className='flex lg:justify-end items-center'>
                                                  <div className= {` w-[38px] h-[38px] flex justify-center items-center  text-black border border-black rounded-full`}>
                                                                     <FaArrowDown></FaArrowDown>
                                                             </div>   
@@ -18,24 +18,24 @@ const About = () => {
                                                                   </div>   
                     </div>
 
-               <div className='pl-[130px]'>
-                     <h1 className='text-[78px] font-bold capitalize text-end mt-9 mb-4'>I've been <span className='banner_badge'>Developing <br /> </span> Websites since <span className='banner_badge'>2013</span></h1>
+               <div className='lg:pl-[130px]'>
+                     <h1 className='text-4xl leading-[50px] sm:text-5xl sm:leading-[70px] md:text-7xl md:leading-[110px]  lg:text-[78px]  font-bold capitalize lg:text-end mt-9 mb-4'>I've been <span className='banner_badge'>Developing <br /> </span> Websites since <span className='banner_badge'>2013</span></h1>
 
-                    <p className='text-[18px] capitalize font-normal text-center mb-[70px]'> We start every new client interaction with an in-depth discovery call where we get to know each other and recommend the best course of action.</p>
+                    <p className='text-[18px] capitalize font-normal lg:text-center mb-[70px]'> We start every new client interaction with an in-depth discovery call where we get to know each other and recommend the best course of action.</p>
                </div>
 
-               <div className="flex items-center gap-x-8">
+               <div className="lg:flex items-center gap-x-8">
                     <h2 className='uppercase text-[26px] font-bold'>priviously <br /> worked on</h2>
 
                     <div className="about-btn">
-                          <div className="btn_group ml-36">
-                                  <button className='rotate-[11.73deg] ' >awwards</button>
+                          <div className="btn_group lg:ml-36">
+                                  <button className='lg:rotate-[11.73deg] my-2 lg:my-0 ' >awwards</button>
                                   <button className=' ' >facebook</button>
-                                  <button className='rotate-[16.97deg]  '>CSS<span className='font-bold'>Design</span>Awareds </button>
+                                  <button className='lg:rotate-[16.97deg] my-2 lg:my-0 hidden lg:block '>CSS<span className='font-bold'>Design</span>Awareds </button>
                           </div>
                           <div className="btn_group mt-3">
                             <button >CSS V INNER</button>
-                            <button className='font-bold -rotate-[9.34deg]' >/thougtworks</button>
+                            <button className='font-bold lg:-rotate-[9.34deg] my-2 lg:my-0 ' >/thougtworks</button>
                             <button className='font-bold' >autodesk</button>
                           </div>
                     </div>

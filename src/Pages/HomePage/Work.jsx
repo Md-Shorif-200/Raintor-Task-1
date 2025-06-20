@@ -4,12 +4,12 @@ import { FaRightLong } from 'react-icons/fa6';
 
 const Work = () => {
     return (
-        <div className='bg-[#141414] dark:bg-black px-[5%] py-[90px] mt-6'>
+        <div className='bg-[#141414] dark:bg-black px-[5%] py-12 lg:py-[90px] mt-6'>
 
              {/* work section heading */}
-                <div className="work_heading flex items-center gap-x-[97px] mb-8">
+                <div className="work_heading lg:flex items-center gap-x-[97px] mb-8">
                       <Secondary_btn></Secondary_btn>
-                       <h1 className="text-[58px] font-bold capitalize text-white">
+                       <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[58px] my-4 lg:my-0 font-bold capitalize text-white">
             My work process
           </h1>
                 </div>
@@ -20,7 +20,7 @@ const Work = () => {
                     {/* card */}
                       <div className="card bg-black text-white p-8">
                             <div className="card_link flex  justify-between">
-                                        <div className="button bg-[#C5FFEE] text-[20px] text-black py-[5px] px-8 rounded-[30px] capitalize">discovery</div>
+                                        <div className="button bg-[#C5FFEE] text-[20px] text-black py-[5px] px-4 sm:px-8 rounded-[30px] capitalize">discovery</div>
 
                                          <div className='flex items-center gap-x-2 '>  <FaRightLong></FaRightLong> <span className='underline'>Read more</span> </div>
                             </div>
@@ -33,7 +33,7 @@ const Work = () => {
                             {/* card */}
                       <div className="card bg-black text-white p-8 transform rotate-[3.85deg]">
                             <div className="card_link flex  justify-between">
-                                        <div className="button bg-[#C5FFEE] text-[20px] text-black py-[5px] px-8 rounded-[30px] capitalize">strategy</div>
+                                        <div className="button bg-[#C5FFEE] text-[20px] text-black py-[5px] px-4 sm:px-8 rounded-[30px] capitalize">strategy</div>
 
                                          <div className='flex items-center gap-x-2 '>  <FaRightLong></FaRightLong> <span className='underline'>Read more</span> </div>
                             </div>
@@ -46,7 +46,7 @@ const Work = () => {
                             {/* card */}
                       <div className="card bg-black text-white p-8">
                             <div className="card_link flex  justify-between">
-                                        <div className="button bg-[#C5FFEE] text-[20px] text-black py-[5px] px-8 rounded-[30px] capitalize">design</div>
+                                        <div className="button bg-[#C5FFEE] text-[20px] text-black py-[5px] px-4 sm:px-8 rounded-[30px] capitalize">design</div>
 
                                          <div className='flex items-center gap-x-2 '>  <FaRightLong></FaRightLong> <span className='underline'>Read more</span> </div>
                             </div>
@@ -60,7 +60,7 @@ const Work = () => {
                             {/* card */}
                       <div className="card bg-black text-white p-8">
                             <div className="card_link flex  justify-between">
-                                        <div className="button bg-[#C5FFEE] text-[20px] text-black py-[5px] px-8 rounded-[30px] capitalize">build</div>
+                                        <div className="button bg-[#C5FFEE] text-[20px] text-black py-[5px] px-4 sm:px-8 rounded-[30px] capitalize">build</div>
 
                                          <div className='flex items-center gap-x-2 '>  <FaRightLong></FaRightLong> <span className='underline'>Read more</span> </div>
                             </div>

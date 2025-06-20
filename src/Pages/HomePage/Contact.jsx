@@ -9,14 +9,14 @@ import { TfiLayoutLineSolid } from 'react-icons/tfi';
 
 const Contact = () => {
     return (
-        <div className='w-full  px-[5%] py-12 flex gap-x-3 '  style={{
+        <div className='w-full  px-[5%] py-12 lg:flex gap-x-3 '  style={{
                 backgroundImage: `url(${contactImg})`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
               }}>
 
-                <div className="contact_info w-[60%]">
+                <div className="contact_info lg:w-[60%]">
                        <div className='flex  items-center'>
                                                  <div className= {` w-[38px] h-[38px] flex justify-center items-center  text-black border border-black rounded-full`}>
                                                                     <FaArrowDown></FaArrowDown>
@@ -26,7 +26,7 @@ const Contact = () => {
                                                                   </div>   
                     </div>
 
-                     <h1 className="text-[78px] font-bold capitalize mt-5">
+                     <h1 className="text-4xl leading-[50px] sm:text-5xl sm:leading-[70px] md:text-7xl md:leading-[110px]  lg:text-[78px]  font-bold capitalize mt-5">
          Interested in <br /> <span className='banner_badge'>work</span> together?
         </h1>
 
@@ -39,7 +39,7 @@ const Contact = () => {
 
 
                 </div>
-                <div className="contact_form w-[50%] rounded-[30px] px-7 py-11 bg-black" > 
+                <div className="contact_form lg:w-[40%] rounded-[30px] mt-10 lg:mt-0 px-7 py-11 bg-black" > 
                       <form action="#">
 
                                 <input type="text"  placeholder='Enter Your Name ' className='w-full bg-transparent   focus:border-none focus:outline-none capitalize pb-2 text-white ' />
@@ -51,8 +51,8 @@ const Contact = () => {
 
                                   <input type="text"  placeholder='Describe your project ' className='w-full bg-transparent   focus:border-none focus:outline-none capitalize pb-2 text-white ' />
                                  <hr className='text-white opacity-[.5]  mb-4' />
-                {/* form btn */}
-                                 <div className="form_btn mt-10 flex gap-x-5 items-center">
+                              {/* form btn */}
+                                 <div className="form_btn mt-10  lg:flex gap-x-5 items-center">
                                             {/* button -1 */}
                                          <button className='  flex  items-center gap-x-2 capitalize text-white  border border-white d py-2 pr-6 rounded-[29px]'>
                              <div className= {` w-[40px] h-[40px] flex justify-center items-center  text-white  border border-white  rounded-full`}>
@@ -60,7 +60,7 @@ const Contact = () => {
                                 </div>
                                   send
                                         </button>
-                                             <p className='text-white text-[18px] '>or</p>
+                                             <p className='text-white text-[18px] text-center lg:text-start my-3 lg:my-0 '>or</p>
 
                                              {/* button -2 */}
 
@@ -68,7 +68,7 @@ const Contact = () => {
                              <div className= {` w-[40px] h-[40px] flex justify-center items-center  text-white  border border-white  rounded-full`}>
                                     <FaMessage></FaMessage>
                                 </div>
-                                  send
+                                  contact me
                                         </button>
                                  </div>
 
