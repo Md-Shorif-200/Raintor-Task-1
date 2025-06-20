@@ -2,8 +2,7 @@
 # DEVELOP.ME - Portfolio Website
 
 # Setup Instructions : 
-### step 1 :
-### Clone Project : https://github.com/Md-Shorif-200/Raintor-Task-1.git
+### step 1 : Clone Project : https://github.com/Md-Shorif-200/Raintor-Task-1.git 
 ### step 2 : cd project name
 ### step 3 : npm install 
 ### step 4 : npm run dev
