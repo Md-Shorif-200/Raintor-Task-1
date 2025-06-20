@@ -23,3 +23,11 @@
     width: 45px;
     border: 1px solid black;
 }
+
+.btn_group button {
+      @apply border border-black rounded-[45px] w-[275px] h-[90px] text-black text-lg
+}
+
+.btn_group button:hover {
+      @apply bg-black text-white transition-all
+}

@@ -6,7 +6,7 @@ import { BsSunFill } from 'react-icons/bs';
 
 const Navbar = ({handleDarkmodemode,mode}) => {
     return (
-        <nav className='nav_align py-[28px] px-[50px] sticky top-0 shadow-xl bg-white dark:bg-black'>
+        <nav className='nav_align py-[28px] px-[50px] sticky top-0 shadow-xl bg-white dark:bg-black z-50'>
               {/* nav logo */}
                  <div className="nav_logo ">
                       <h1 className='uppercase text-[34px] font-bold'>DEVLOP.ME</h1>
