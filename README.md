@@ -13,7 +13,7 @@
 #### 2. Tailwind CSS (For Styling)
 #### 3. Netlify (For Deployment)
 #### 3. Aos Animatin (For Better User Experience)
-# limitations or tradeoffs
+# tradeoffs
 1. Unit Test dropped due to time constraints
 
 
